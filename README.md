@@ -47,6 +47,7 @@ python evaluate.py --input_dir <insert_input_dir> --output_dir <insert_output_di
 - `--checkpoint`: path to a trained model checkpoint. If the checkpoint was
   trained with non-default `--base_ch` / `--num_blocks` / `--scale`, pass the
   matching values here too.
+- In place of <insert_input_dir> and <insert_output_dir> place the input and output directories where the data is and where you want the generated images to be. 
 
 This script loads the model, runs inference on every `.npy` file in
 `input_dir`, and writes one restored `.npy` array per input to `output_dir`.
