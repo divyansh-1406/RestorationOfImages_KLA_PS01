@@ -9,7 +9,7 @@ single-channel 128×128 images to 256×256.
 ## 1. Setup
 
 ```bash
-git clone <https://github.com/divyansh-1406/RestorationOfImages_KLA_PS01>
+git clone https://github.com/divyansh-1406/RestorationOfImages_KLA_PS01
 cd RestorationOfImages_KLA_PS01
 python -m venv venv
 source venv/Scripts/activate
@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 Each `.npy` file is a single-channel 2D array (any numeric range; the loader
 normalizes to `[0, 1]` and resizes to the expected resolution if needed).
+
+# Download the dataset provided and paste it in the appropriate location for training and inference
 
 ## 3. Training from scratch
 
