@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Each `.npy` file is a single-channel 2D array (any numeric range; the loader
 normalizes to `[0, 1]` and resizes to the expected resolution if needed).
 
-# Download the dataset provided and paste it in the appropriate location for training and inference
+## Download the dataset provided and paste it in the appropriate location for training and inference
 
 ## 3. Training from scratch
 
